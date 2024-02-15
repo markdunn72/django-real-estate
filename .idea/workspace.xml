@@ -4,11 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0a48f89f-581f-4244-b4a1-e960bbe94cf2" name="Changes" comment="feat: split settings, configure static and media">
+    <list default="true" id="0a48f89f-581f-4244-b4a1-e960bbe94cf2" name="Changes" comment="chore: configure django logging">
+      <change afterPath="$PROJECT_DIR$/real_estate/users/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/real_estate/users/managers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/real_estate/real_estate/settings/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/real_estate/real_estate/settings/base.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/real_estate/real_estate/settings/dev.py" beforeDir="false" afterPath="$PROJECT_DIR$/real_estate/real_estate/settings/dev.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/real_estate/real_estate/settings/prod.py" beforeDir="false" afterPath="$PROJECT_DIR$/real_estate/real_estate/settings/prod.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/real_estate/real_estate/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/real_estate/real_estate/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/real_estate/users/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/real_estate/users/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/real_estate/users/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/real_estate/users/models.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +56,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "watcher.settings",
+    "settings.editor.selected.configurable": "com.jetbrains.python.black.configuration.BlackFormatterConfigurable",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -78,7 +82,7 @@
       <option name="presentableId" value="Default" />
       <updated>1707913954343</updated>
       <workItem from="1707913956361" duration="1181000" />
-      <workItem from="1707915407451" duration="5520000" />
+      <workItem from="1707915407451" duration="10710000" />
     </task>
     <task id="LOCAL-00001" summary="feat: initial django project">
       <option name="closed" value="true" />
@@ -96,7 +100,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707928523456</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="chore: configure django logging">
+      <option name="closed" value="true" />
+      <created>1707997987523</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1707997987523</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -116,6 +128,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="feat: initial django project" />
     <MESSAGE value="feat: split settings, configure static and media" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: split settings, configure static and media" />
+    <MESSAGE value="chore: configure django logging" />
+    <option name="LAST_COMMIT_MESSAGE" value="chore: configure django logging" />
   </component>
 </project>
