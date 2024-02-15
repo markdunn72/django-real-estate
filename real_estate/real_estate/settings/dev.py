@@ -1,1 +1,1 @@
-from base import *
+from real_estate.settings.base import *
