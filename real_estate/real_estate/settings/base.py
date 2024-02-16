@@ -163,3 +163,12 @@ MEDIA_URL = "/media/"
 MEDIA_ROOT = os.path.join(BASE_DIR, "media")
 
 AUTH_USER_MODEL = "users.User"
+
+# Temporary fix for django_countries in Django >= 5.0.0
+# https://code.djangoproject.com/ticket/35046#comment:4
+from django_countries.widgets import LazyChoicesMixin  # noqa
+
+LazyChoicesMixin.get_choices = lambda self: self._choices
+LazyChoicesMixin.choices = property(
+    LazyChoicesMixin.get_choices, LazyChoicesMixin.set_choices
+)

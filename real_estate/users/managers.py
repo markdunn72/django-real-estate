@@ -60,7 +60,7 @@ class CustomUserManager(BaseUserManager):
 
         if email:
             email = self.normalize_email(email)
-            self.validate_email(email)
+            self.email_validator(email)
         else:
             raise ValueError(_("Admin Account: An email address is required"))
 
