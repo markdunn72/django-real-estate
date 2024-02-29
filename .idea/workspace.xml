@@ -4,14 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0a48f89f-581f-4244-b4a1-e960bbe94cf2" name="Changes" comment="feat: add profile model and signals">
-      <change afterPath="$PROJECT_DIR$/real_estate/ratings/serializers.py" afterDir="false" />
+    <list default="true" id="0a48f89f-581f-4244-b4a1-e960bbe94cf2" name="Changes" comment="feat: add rating model and serializer">
+      <change afterPath="$PROJECT_DIR$/real_estate/.env.example" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/real_estate/common/email.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/real_estate/users/serializers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/django-real-estate.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/django-real-estate.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/real_estate/profiles/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/real_estate/profiles/migrations/0002_alter_profile_profile_photo.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/real_estate/profiles/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/real_estate/profiles/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/real_estate/ratings/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/real_estate/ratings/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/real_estate/ratings/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/real_estate/ratings/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/real_estate/real_estate/settings/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/real_estate/real_estate/settings/base.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/real_estate/real_estate/settings/dev.py" beforeDir="false" afterPath="$PROJECT_DIR$/real_estate/real_estate/settings/dev.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/real_estate/real_estate/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/real_estate/real_estate/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/real_estate/requirements.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +32,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="markdunn72 &lt;markdunn2012@gmail.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -50,6 +58,7 @@
     "RunOnceActivity.OpenDjangoStructureViewOnStart": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "/Users/markdunn/dev/django-real-estate/real_estate",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -57,9 +66,17 @@
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "com.jetbrains.python.black.configuration.BlackFormatterConfigurable",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
+    ]
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/real_estate" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/real_estate/static/img" />
       <recent name="$PROJECT_DIR$/real_estate" />
@@ -82,7 +99,10 @@
       <option name="presentableId" value="Default" />
       <updated>1707913954343</updated>
       <workItem from="1707913956361" duration="1181000" />
-      <workItem from="1707915407451" duration="17008000" />
+      <workItem from="1707915407451" duration="17995000" />
+      <workItem from="1708465629932" duration="16000" />
+      <workItem from="1708465669950" duration="1216000" />
+      <workItem from="1708542185999" duration="8392000" />
     </task>
     <task id="LOCAL-00001" summary="feat: initial django project">
       <option name="closed" value="true" />
@@ -124,7 +144,23 @@
       <option name="project" value="LOCAL" />
       <updated>1708086426477</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="feat: add rating model and serializer">
+      <option name="closed" value="true" />
+      <created>1708253499880</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1708253499880</updated>
+    </task>
+    <task id="LOCAL-00007" summary="feat: add rating model and serializer">
+      <option name="closed" value="true" />
+      <created>1708253507875</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1708253507875</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -147,6 +183,7 @@
     <MESSAGE value="chore: configure django logging" />
     <MESSAGE value="feat: add custom user model" />
     <MESSAGE value="feat: add profile model and signals" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: add profile model and signals" />
+    <MESSAGE value="feat: add rating model and serializer" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: add rating model and serializer" />
   </component>
 </project>
